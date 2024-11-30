@@ -4,8 +4,8 @@ import img1 from "./icons/WhatsApp Image 2024-11-29 at 10.29.54 PM.jpeg"
 import im2 from "./favicon.ico"
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen  p-8 pb-20 gap-5 sm:p-20 font-bold text-xl ">
-      <div className="h-max flex justify-center items-center text-3xl uppercase h-screen pt-10">
+    <div className="flex flex-col items-center justify-center h-screen min-h-max  p-8 pb-20 gap-5 sm:p-20 font-bold text-xl ">
+      <div className="h-max flex justify-center items-center text-3xl uppercase pt-10">
         <div className="logo is-animetion">
           <span>C</span>
           <span>O</span>
@@ -20,7 +20,7 @@ export default function Home() {
           <span>N</span>
         </div>
       </div>
-      <div className=" h-[400px]">
+      <div className=" h-[400px] flex justify-center items-center w-full">
         <img src={im2.src} />
       </div>
       <div className="h-max flex flex-col pt-10 gap-10">
